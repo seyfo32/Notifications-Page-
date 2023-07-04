@@ -1,0 +1,116 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    
+}
+
+.flex-box{
+    display: flex;
+}
+.grid{
+    display: grid;
+}
+.marg-left{
+    margin-left: 1rem;
+}
+
+header{
+    padding: 2rem 1rem;
+}
+.not-number{
+    color: white;
+    background-color: darkblue;
+    padding: 0.15rem 0.7rem;
+    border-radius:5px;
+    margin-left: 0.5rem;
+}
+#mark-all{
+    margin-left: auto;
+    color:hsl(219, 12%, 42%);
+    font-size: 14px;
+}
+#mark-all:hover{
+    color: darkblue;
+    transition: 0.2s;
+    cursor: pointer;
+    font-size: 16px;
+}
+.user{
+    font-weight: bold;
+    color: black;
+}
+.user:hover{
+    color: darkblue;
+    cursor: pointer;
+}
+.not-text{
+    color:  hsl(219, 12%, 42%);
+    
+  
+}
+.not-cards img{
+max-width: 40px;
+max-height: 40px;
+}
+.not-cards{
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+    
+ }
+ .time{
+  flex: none;
+  color: hsl(219, 14%, 63%);
+  margin-top: 0.5rem;
+ }
+ .unread{
+    background-color: hsl(210, 60%, 98%);
+ }
+.priv-massage{
+    border: 1px solid  hsl(205, 33%, 90%);
+    padding: 1rem;
+    color:  hsl(219, 12%, 42%);
+    margin-top: 1rem;
+}
+.priv-massage:hover{
+    background-color: hsl(205, 33%, 90%);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.group-name{
+    color:darkblue;
+    font-weight: bold;
+}
+.group-name:hover{
+   font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.red-dot {
+    display: inline-block;
+    margin-left: 5px;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  }
+  .recent-post{
+    font-weight: bold;
+  }
+  #commented-pic{
+    flex: none;
+    display: inline-block;
+ position: absolute;
+ right: 2rem;
+  }
+  #commented-pic:hover{
+   cursor: pointer;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   transition: 0.2s;  }
+ 
